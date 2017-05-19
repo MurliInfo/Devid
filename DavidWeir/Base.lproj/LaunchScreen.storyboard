@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlaceBG" translatesAutoresizingMaskIntoConstraints="NO" id="EPU-Cg-ho2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlaceLogo" translatesAutoresizingMaskIntoConstraints="NO" id="sHR-1j-nkQ">
+                                <rect key="frame" x="25" y="20" width="199" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="xUO-zh-9Ze"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlaceProfile" translatesAutoresizingMaskIntoConstraints="NO" id="OOp-HM-RV9">
+                                <rect key="frame" x="136" y="232" width="103" height="103"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="D10-o0-SZN"/>
+                                    <constraint firstAttribute="height" constant="103" id="n6y-PF-FU6"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="David Weir" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZ7-dE-4A7">
+                                <rect key="frame" x="64" y="346" width="247" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="247" id="fPl-2Z-kGw"/>
+                                    <constraint firstAttribute="height" constant="56" id="lyM-0g-2ET"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Property Consultants" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qul-fw-unV">
+                                <rect key="frame" x="67" y="398" width="241" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="V3z-ia-mct"/>
+                                    <constraint firstAttribute="width" constant="241" id="dZK-TD-xrN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.99607843139999996" green="0.41176470590000003" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlaceLine" translatesAutoresizingMaskIntoConstraints="NO" id="vhK-rV-hDA">
+                                <rect key="frame" x="103" y="428" width="169" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="169" id="Nzc-By-Ei0"/>
+                                    <constraint firstAttribute="height" constant="1" id="pc0-HA-y0B"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PlacePhone" translatesAutoresizingMaskIntoConstraints="NO" id="quB-35-1hf">
+                                <rect key="frame" x="95" y="441" width="16" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="Dh1-wG-gla"/>
+                                    <constraint firstAttribute="width" constant="16" id="skZ-WJ-NV7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0402 930 908 " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ON-nP-Mh3" userLabel="0402 930 908">
+                                <rect key="frame" x="124" y="438" width="139" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="DaD-0c-UNe"/>
+                                    <constraint firstAttribute="width" constant="139" id="Zqe-ru-j8V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="www.davidweir.com.au" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSk-SK-ayk">
+                                <rect key="frame" x="91" y="626" width="192" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="DB7-3r-FUm"/>
+                                    <constraint firstAttribute="width" constant="192" id="hXt-Pg-cdL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sHR-1j-nkQ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="9" id="5Pf-VY-M8Y"/>
+                            <constraint firstItem="OOp-HM-RV9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-50" id="6an-JX-Cya"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="bSk-SK-ayk" secondAttribute="bottom" constant="20" id="7iF-zE-S3V"/>
+                            <constraint firstItem="bSk-SK-ayk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="MQW-D0-7X9"/>
+                            <constraint firstItem="Qul-fw-unV" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="75" id="MiZ-H9-yRQ"/>
+                            <constraint firstItem="EPU-Cg-ho2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="NDv-C7-yuq"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="EPU-Cg-ho2" secondAttribute="bottom" id="OsO-l7-n3X"/>
+                            <constraint firstItem="quB-35-1hf" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="116.5" id="ZbW-0q-PP8"/>
+                            <constraint firstItem="OOp-HM-RV9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cUw-Ha-JYj"/>
+                            <constraint firstItem="vhK-rV-hDA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cgn-bh-MWj"/>
+                            <constraint firstItem="sHR-1j-nkQ" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="de3-tH-p1h"/>
+                            <constraint firstItem="fZ7-dE-4A7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="40" id="eNX-Xx-klQ"/>
+                            <constraint firstItem="Qul-fw-unV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="fgi-69-hZh"/>
+                            <constraint firstItem="2ON-nP-Mh3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="6" id="iXi-Lz-VmU"/>
+                            <constraint firstItem="vhK-rV-hDA" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="95" id="jIs-WX-m7r"/>
+                            <constraint firstItem="2ON-nP-Mh3" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="115" id="n9i-Je-6xI"/>
+                            <constraint firstItem="fZ7-dE-4A7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ozd-IL-6fz"/>
+                            <constraint firstItem="EPU-Cg-ho2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="tkx-Hf-LGW"/>
+                            <constraint firstItem="quB-35-1hf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" constant="-85" id="wI5-LG-gjH"/>
+                            <constraint firstAttribute="trailing" secondItem="EPU-Cg-ho2" secondAttribute="trailing" id="xlV-rI-IPa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sHR-1j-nkQ" secondAttribute="trailing" constant="135" id="zOJ-ox-1Qq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="PlaceBG" width="1280" height="1920"/>
+        <image name="PlaceLine" width="499" height="2"/>
+        <image name="PlaceLogo" width="619" height="181"/>
+        <image name="PlacePhone" width="34" height="34"/>
+        <image name="PlaceProfile" width="266" height="265"/>
+    </resources>
+</document>
